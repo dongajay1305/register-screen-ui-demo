@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/popup_background"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_minchar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_top_cell_poplayout"
+        android:layout_marginLeft="@dimen/margin_left_cell_poplayout"
+        android:layout_marginRight="@dimen/margin_right_cell_poplayout">
+
+        <ImageView
+            android:id="@+id/iv_minchar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/untick"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_cell_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popup_font_size"
+            android:fontFamily="@font/poppins_light"
+            android:text="Minimum 8 characters"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lowercase"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_top_cell_poplayout"
+        android:layout_marginLeft="@dimen/margin_left_cell_poplayout"
+        android:layout_marginRight="@dimen/margin_right_cell_poplayout">
+
+        <ImageView
+            android:id="@+id/iv_lowercase"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/untick"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/popup_font_size"
+            android:layout_marginLeft="@dimen/margin_left_cell_text"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:text="One lower case"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_uppercase"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin_top_cell_poplayout"
+            android:layout_marginLeft="@dimen/margin_left_cell_poplayout"
+            android:layout_marginRight="@dimen/margin_right_cell_poplayout">
+
+            <ImageView
+                android:id="@+id/iv_uppercase"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/untick"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/popup_font_size"
+                android:layout_marginLeft="@dimen/margin_left_cell_text"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_light"
+                android:text="One upper case"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+        android:id="@+id/ll_number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_top_cell_poplayout"
+        android:layout_marginLeft="@dimen/margin_left_cell_poplayout"
+        android:layout_marginRight="@dimen/margin_right_cell_poplayout">
+
+        <ImageView
+            android:id="@+id/iv_number"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/untick"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/popup_font_size"
+            android:layout_marginLeft="@dimen/margin_left_cell_text"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:text="One number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_special_char"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_top_cell_poplayout"
+        android:layout_marginLeft="@dimen/margin_left_cell_poplayout"
+        android:layout_marginRight="@dimen/margin_right_cell_poplayout"
+        android:layout_marginBottom="@dimen/margin_top_cell_poplayout">
+
+        <ImageView
+            android:id="@+id/iv_special_char"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/untick"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/popup_font_size"
+            android:layout_marginLeft="@dimen/margin_left_cell_text"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:text="One special character"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:rotation="180"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/downside_triangle_vector"
+        android:scaleType="fitXY"
+        android:visibility="visible"/>
+
+
+</LinearLayout>

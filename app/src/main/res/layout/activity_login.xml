@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/eggplant">
+
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simpli"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textSize="@dimen/title_text_size"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:text="Claim"
+                        android:textSize="@dimen/title_text_size"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_regular"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvbtn_register"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/login_top_margin"
+                    android:gravity="center"
+                    android:textColor="@color/turquoise_green"
+                    android:textSize="@dimen/login_text_size"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="80dp"
+                    android:text="Register"/>
+
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/eggplant</color>
+    <color name="colorPrimaryDark">@color/eggplant</color>
+    <color name="colorAccent">@color/eggplant</color>
+
+    <color name="eggplant">#110c2b</color>
+    <color name="white">#ffffff</color>
+    <color name="turquoise_green">#00F298</color>
+    <color name="light_indigo">#7D70C1</color>
+
+    <color name="perry_winkle">#9D93D5</color>
+    <color name="green_blue">#00BD77</color>
+
+    <color name="deep_lilac_two">#837DA2</color>
+    <color name="pink_error">#FF1AA6</color>
+
+    <color name="error_yellow">#FFBA00</color>
+    <color name="error_strong_pink">#FF117C</color>
+
+    <color name="dusk">#5D577F</color>
+
+
+    <!--popup colors-->
+    <color name="pop_start">#16765F</color>
+    <color name="pop_end">#173842</color>
+
+</resources>
