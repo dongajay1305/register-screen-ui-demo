@@ -8,7 +8,7 @@ Prerequisites
 - Android Support Repository
 
 Getting started
----------------git 
+--------------- 
 
 This sample uses the Gradle build system.
 
